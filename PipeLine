@@ -13,7 +13,7 @@ node {
   }
   stage('Build') {
     
-    bat 'cd Users\Henrique\env\Scripts\activate'
+    bat 'cd Users\Henrique\env\Scripts'
     bat 'python -m Pyautomators'
   } 
 
