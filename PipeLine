@@ -12,7 +12,7 @@ node {
   
   }
   stage('Build') {
-   cmd_exec('cd carrefour\env\Scripts')
+   cmd_exec('cd carrefour/env/Scripts')
    cmd_exec('python -m Pyautomators')
     
   } 
