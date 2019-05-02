@@ -2,7 +2,7 @@
 
 node {
     stage('Preparation') {
-        echo 'Code preparação'
+       git 'https://github.com/daniel19942015/desafio-indra.git'
     }
     
     stage('Build') {
