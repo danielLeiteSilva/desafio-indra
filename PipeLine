@@ -12,7 +12,15 @@ pipeline  {
   }
     stage('Build') {
       steps {
-      bat 'UsersU+005CHenriqueU+005CenvU+005CScriptsU+005Cactivate'
+      
+        bat  '''
+        
+        Users//Henrique//env//Scripts//activate
+        python -m Pyautomators
+        
+        
+        '''
+       
      
       }
     } 
