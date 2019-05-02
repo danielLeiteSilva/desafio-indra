@@ -3,7 +3,7 @@
 node { 
   def mvnHome 
   
- stages{
+ 
   stage('Preparation') { 
   
     git 'https://github.com/daniel19942015/desafio-indra.git' 
@@ -23,6 +23,6 @@ node {
 
   stage('Results')  { 
     echo 'Results' 
-  }
+  
  } 
 }
