@@ -6,8 +6,8 @@ pipeline  {
     stage('Preparation') { 
       steps {
         git 'https://github.com/daniel19942015/desafio-indra.git' 
-        bat 'cd Program Files (x86)U+005CJenkinsU+005CworkspaceU+005CAutomação Teste CarrefourU+005CcarrefourU+005CenvU+005CScriptsU+005C'
-        bat 'activate'
+        bat "cd Program Files (x86)U+005CJenkinsU+005CworkspaceU+005CAutomação Teste CarrefourU+005CcarrefourU+005CenvU+005CScriptsU+005C"
+        bat "activate"
    
       }
   }
