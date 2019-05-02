@@ -1,6 +1,6 @@
 #!groovy
 
-node('master') {
+node {
     stage('Preparation') {
         echo 'Code preparação'
     }
