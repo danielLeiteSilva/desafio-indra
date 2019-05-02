@@ -6,10 +6,7 @@ node {
     }
     
     stage('Build') {
-       withMaven(maven: 'Maven 3') {
-          dir('carrefour') {
-            sh 'mvn clean test -Dwebdriver.type=chrome -Dwebdriver.chrome.driver=chromedriver.exe'
-          }
+       echo 'BUILD'
     }
     
     stage('Results') {
