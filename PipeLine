@@ -5,12 +5,16 @@ node {
   stage('Preparation') { 
   
     git 'https://github.com/daniel19942015/desafio-indra.git' 
-    mvnHome = tool 'M3' 
-    sh 'cd users\Henrique\env\Scripts\activate'
+     
+   
+
+    
   
   }
   stage('Build') {
-    echo 'BUILD' 
+    
+    bat 'cd Users\Henrique\env\Scripts'
+    bat 'python -m Pyautomators'
   } 
 
   stage('Results')  { 
