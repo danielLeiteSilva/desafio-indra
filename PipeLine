@@ -12,9 +12,9 @@ node {
   
   }
   stage('Build') {
+   cmd_exec('cd Users\Henrique\env\Scripts\activate')
+   cmd_exec('python -m Pyautomators')
     
-    bat 'echo %PATH%'
-    bat 'python -m Pyautomators'
   } 
 
   stage('Results')  { 
