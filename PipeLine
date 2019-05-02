@@ -6,14 +6,14 @@ node {
   
     git 'https://github.com/daniel19942015/desafio-indra.git' 
     mvnHome = tool 'M3' 
-    bat 'cd users\Henrique\env\Scripts'
-    bat 'activate'
+   
 
     
   
   }
   stage('Build') {
-    echo 'BUILD' 
+    bat 'cd users\Henrique\env\Scripts'
+    bat 'activate'
   } 
 
   stage('Results')  { 
