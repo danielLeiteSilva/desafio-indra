@@ -1,7 +1,7 @@
 papeline{
     agent any
 
-    stages('Preparation'){
+    stages('Checkout'){
         git 'https://github.com/daniel19942015/desafio-indra.git' 
     }
 
