@@ -15,7 +15,7 @@ pipeline  {
       
         bat  '''
         
-        Users//Henrique//env//Scripts//activate
+        env//Scripts//activate
         python -m Pyautomators
         
         
