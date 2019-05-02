@@ -1,20 +1,15 @@
-pipeline {
-    agent any 
-    stages {
-        stage('Build') { 
-            steps {
-                // 
-            }
-        }
-        stage('Test') { 
-            steps {
-                // 
-            }
-        }
-        stage('Deploy') { 
-            steps {
-                // 
-            }
-        }
+#!groovy
+
+node('master') {
+    stage('Preparation') {
+        echo 'Code preparação'
+    }
+    
+    stage('Build') {
+        echo 'Build'
+    }
+    
+    stage('Results') {
+        echo 'Results'
     }
 }
