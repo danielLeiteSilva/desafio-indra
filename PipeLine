@@ -5,6 +5,8 @@ node {
   stage('Preparation') { 
   
     git 'https://github.com/daniel19942015/desafio-indra.git' 
+    bat'cd Program Files (x86)\Jenkins\workspace\Automação Teste Carrefour\carrefour\env\Scripts'
+    
      
    
 
