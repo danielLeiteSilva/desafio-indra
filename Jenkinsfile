@@ -18,7 +18,7 @@ pipeline{
                 env//Scripts//activate
                 '''
                 bat '''
-                cd desafio-indra
+                
                 python -m Pyautomators -f json -o .//relatorio.json
                 '''
                 
