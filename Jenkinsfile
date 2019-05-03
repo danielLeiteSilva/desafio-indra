@@ -15,7 +15,7 @@ pipeline{
                 python -m pip install --upgrade pip
                 pip install virtualenv
                 virtualenv env
-                env//s//activate
+                env//Scripts//activate
                 '''
                 bat '''
                 
