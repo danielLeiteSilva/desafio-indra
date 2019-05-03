@@ -18,11 +18,11 @@ def step_impl(context):
     element2.click()
     
 
-@then(u'clica em comprar')
+'''@then(u'clica em comprar')
 def step_impl(context):
     element3=context.driver.find_element_by_xpath('//*[@id="buyProductButtonBottom"]')
     element3.click()
-    time.sleep(10)
+    time.sleep(10)'''
 
 
 @then(u'finaliza a Pesquisa')
