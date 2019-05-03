@@ -4,7 +4,7 @@
 pipeline{
     agent any
     stages {
-        stage ("Build"){
+        stage ("Preparation"){
             steps{
                 echo 'Building'
                 git 'https://github.com/daniel19942015/desafio-indra.git'
